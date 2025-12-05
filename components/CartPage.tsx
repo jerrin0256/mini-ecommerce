@@ -1,4 +1,4 @@
-'use clients';
+'use client';
 
 import { useCart } from '@/context/CartContext';
 import { products } from '@/data/products';
