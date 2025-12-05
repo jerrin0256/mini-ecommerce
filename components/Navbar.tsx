@@ -1,5 +1,3 @@
-'use client';
-
 import Link from 'next/link';
 import { useCart } from '@/context/CartContext';
 
@@ -18,7 +16,6 @@ export default function Navbar() {
             <span className="text-xl font-bold text-gray-900">MiniShop</span>
           </Link>
 
-          {/* Navigation Links */}
           <div className="flex items-center space-x-6">
             <Link
               href="/"
