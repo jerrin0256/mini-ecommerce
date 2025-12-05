@@ -1,5 +1,3 @@
-'use client';
-
 import { useCart } from '@/context/CartContext';
 import { products } from '@/data/products';
 import Image from 'next/image';
@@ -58,7 +56,7 @@ return product ? { ...product, quantity: item.quantity } : null;
       key={item.id}
       className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col sm:flex-row"
       >
-    {/* Product Image */}
+      {/* Product Image */}
     <Link href={`/products/${item.id}`} className="relative w-full sm:w-48 h-48 sm:h-auto bg-gray-200">
     <Image
     src={item.image}
