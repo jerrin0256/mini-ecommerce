@@ -24,7 +24,7 @@ export default function Navbar() {
               Home
             </Link>
 
-            {/* Cart Icon with Count */}
+          
             <Link
               href="/cart"
               className="relative flex items-center space-x-2 text-gray-700 hover:text-blue-600 transition-colors"
